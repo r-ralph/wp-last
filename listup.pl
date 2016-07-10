@@ -71,7 +71,7 @@ sub search {
       ['sunglasses',    '1F60E', 'smiling face with sunglasses'],
       ['dizzy_face',    '1F635', 'dizzy face'],
       ['imp',           '1F47F', 'imp'],
-      ['smiling imp',   '1F608', 'smiling face with horns'],
+      ['smiling_imp',   '1F608', 'smiling face with horns'],
       ['neutral_face',  '1F610', 'neutral face'],
       ['no_mouth',      '1F636', 'face without mouth'],
       ['innocent',      '1F607', 'smiling face with halo'],
