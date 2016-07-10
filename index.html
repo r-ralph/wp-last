@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Emoji Convarter</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Emoji Convarter</h1>
+        <p class="lead">Slackなどで使用できる<code>:smile:</code>のような文字列をEmoji Unicodeに変換します</p>
+      </div><!-- /header -->
+      <form>
+        <div class="form">
+          <input type="text" name="textarea" id="form-text" class="form-control input-lg" placeholder=":smile: もしくは smile のように入力してください">
+        </div>
+      </form><!-- /input -->
+      <div id="emoji-container" class="row row-eq-height">
+        <!-- DEMO DOM
+        <div class="col-xs-3">
+          <div class="emoji-cell">
+            <span class="emoji-title">:smile:</span>
+            <span class="emoji-preview">😁</span>
+            <div class="emoji-tip-container">
+              <div class="emoji-subtitle">Unicode</div>
+              <div class="emoji-text"><code>U+28782</code></div>
+            </div>
+            <div class="emoji-tip-container">
+              <div class="emoji-subtitle">Description</div>
+              <div class="emoji-text">grinning face with smiling eyes</div>
+            </div>
+          </div>
+        </div>
+        -->
+      </div><!-- /#emoji-container -->
+    </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.jumbotron {
+  margin-top: 15px;
+}
+
+#emoji-container {
+  margin-top: 30px;
+}
+
+.row-eq-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.emoji-cell {
+  height: 100%;
+  border: 1px solid #AAAAAA;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FAFAFA;
+  margin-bottom: 20px;
+}
+
+.emoji-title {
+  font-size: 2em;
+  font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+  line-height: 2.0;
+}
+
+.emoji-preview {
+  width: 100%;
+  display: inline-block;
+  font-size: 6em;
+  line-height: 1;
+  text-align: center;;
+}
+
+.emoji-tip-container {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.emoji-subtitle {
+  font-weight: 900;
+}
+
+.emoji-text {
+  margin-left: 4px;
+  margin-right: 4px;
+}
