@@ -23,6 +23,8 @@
   padding-right: 10px;
   background-color: #FAFAFA;
   margin-bottom: 20px;
+  text-overflow: ellipsis;
+  overflow: overlay;
 }
 
 .emoji-title {
