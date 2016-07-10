@@ -7,6 +7,7 @@ use utf8;
 
 sub search {
     my $keyword = $_[0];
+    $keyword =~ s/://mg;
     my @EMOJIS = (
       ['smile', '1F604', 'smiling face with open mouth and smiling eyes'],
       ['simple_smile', '1F603', 'smiling face with open mouth']
