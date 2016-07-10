@@ -6,6 +6,10 @@
   margin-top: 30px;
 }
 
+#emoji-container > div {
+  margin-bottom: 20px;
+}
+
 .row-eq-height {
   display: flex;
   flex-wrap: wrap;

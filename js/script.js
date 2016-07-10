@@ -56,7 +56,7 @@ $(() => {
     container.empty()
     // Construct new cells and insert
     json.result.forEach((value) => {
-      const root = $('<div>').addClass('col-xs-4')
+      const root = $('<div>').addClass('col-lg-3').addClass('col-md-4').addClass('col-sm-6').addClass('col-xs-12')
       const emoji_cell = $('<div>').addClass('emoji-cell')
       {
         // Title
