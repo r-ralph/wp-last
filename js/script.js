@@ -103,4 +103,5 @@ $(() => {
     })
   }
   $('#form-text').keyup(checkInputChange())
+  onChange("")
 });
