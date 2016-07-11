@@ -74,10 +74,7 @@ sub search {
       ['smiling_imp',   '1F608', 'smiling face with horns'],
       ['neutral_face',  '1F610', 'neutral face'],
       ['no_mouth',      '1F636', 'face without mouth'],
-      ['innocent',      '1F607', 'smiling face with halo'],
-      ['',      '', ''],
-      ['',      '', ''],
-      ['',      '', ''],
+      ['innocent',      '1F607', 'smiling face with halo']
     );
 
     my @result = ();
