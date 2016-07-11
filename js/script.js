@@ -28,9 +28,9 @@ $(() => {
   }
   // Construct URL from current URL and add param
   const getUrlWithParam = (text) => {
-    const url = window.location.toString()
-    url.substring(0, url.lastIndexOf('/'))
-    return url + 'emoji.cgi?text=' + text
+    var url = window.location.toString()
+    url = url.substring(0, url.lastIndexOf('/'))
+    return url + '/emoji.cgi?text=' + text
   }
   // Construct Promise object
   const getAjaxGetPromise = (url) => {
